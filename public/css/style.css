@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom left, antiquewhite 30%, darkseagreen 70%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.box {
+    background-color: azure;
+    width: 250px;
+    border-radius: 30px;
+    border-color: brown;
+}
+
+button {
+    border-radius: 200px;
+    background-color: burlywood;
+}
