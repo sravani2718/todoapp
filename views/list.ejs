@@ -11,14 +11,14 @@
 <body>
     <center>
         <div class="box">
-            <h1>Todo list</h1>
+            <h1>Smart Task Scheduler</h1>
         </div>
         <div class="box">
             <% ejes.forEach(function(Items,i) { %>
                 <form action="/delete" method="post">
                     <div class="item">
                         <input type="checkbox" name="checkbox1" value="<%= Items._id %>" onchange="this.form.submit()">
-                        <p> Full Stack</p>
+                       
                         <p>
                             <%= ejes[i].name %>
                         </p>
